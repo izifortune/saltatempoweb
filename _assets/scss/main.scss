@@ -1,0 +1,18 @@
+@import 'normalize';
+@import 'reset';
+@import 'colors';
+@import 'utils';
+
+@import 'layout/main';
+@import 'layout/sections';
+@import 'layout/footer';
+
+@import 'components/icons';
+@import 'components/home';
+@import 'components/dove';
+@import 'components/gallery';
+@import 'components/lineup';
+@import 'components/lineup_singolo';
+@import 'components/lineup_split';
+@import 'components/social';
+@import 'components/modal';

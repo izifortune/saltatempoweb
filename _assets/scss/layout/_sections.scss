@@ -1,0 +1,24 @@
+section h3 {
+  color: $base;
+}
+
+.section-base {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: lighter;
+  color: white;
+  background: $base;
+
+  h3 {
+    color: $black;
+  }
+
+  p {
+    margin-bottom: 8px;
+  }
+}
+
+.section-divider {
+  margin: 0;
+}
+

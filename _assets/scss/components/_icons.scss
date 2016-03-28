@@ -1,0 +1,32 @@
+.icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
+
+.btn-close {
+  background: transparent;
+  border: 0;
+
+  svg {
+    stroke: white;
+    fill: transparent;
+  }
+}
+
+.fill-base {
+  fill: $base;
+
+  &:hover {
+    fill: $light_base;
+  }
+}
+
+.fill-dark-accent {
+  fill: $dark_accent;
+
+  &:hover {
+    fill: $accent;
+  }
+}

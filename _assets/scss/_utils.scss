@@ -1,0 +1,89 @@
+.container {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.6875rem 0.84375rem;
+}
+
+.text-secondary {
+  color: $secondary;
+}
+
+.text-dark-secondary {
+  color: $dark_secondary;
+}
+
+.text-accent {
+  color: $accent;
+}
+
+.text-base {
+  color: $base;
+}
+
+.text-complementary {
+  color: $complementary;
+}
+
+.text-black {
+  color: $black;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.animated-lineup {
+  animation-delay: 500ms;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeIn { 0% { opacity:0; opacity: 1\9; /* IE9 only */ } 100% { opacity:1; } }
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInLeft {
+  animation-name: fadeInLeft;
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInRight {
+  animation-name: fadeInRight;
+}
+
+
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.preload * {
+  transition: none !important;
+}
