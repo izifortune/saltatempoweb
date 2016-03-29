@@ -4,23 +4,26 @@
   justify-content: center;
 
   @media screen and (min-width: 768px) {
-    justify-content: space-between;
+    justify-content: flex-start;
+  }
+}
+
+.gallery .locandina {
+  display: block;
+  border-radius: 2px;
+  width: 150px;
+  transition: opacity ease-in 200ms;
+  margin-right: 6px;
+
+  &:hover {
+    opacity: 0.8;
   }
 }
 
 .gallery__img {
-  cursor: pointer;
   display: block;
-  width: 150px;
-  height: 100%;
-  border-radius: 2px;
-  transition: opacity ease-in 200ms;
 
   img {
     margin: 0;
-  }
-
-  &:hover {
-    opacity: 0.8;
   }
 }

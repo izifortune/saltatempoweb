@@ -16,10 +16,9 @@
   background: white;
   max-height: calc(100% - 80px);
   border-radius: 5px;
-  width: 80%;
+  width: auto;
 
   @media screen and (min-width: 768px) {
-    width: auto; 
     max-width: 600px;
   }
 
